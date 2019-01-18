@@ -1,0 +1,23 @@
+
+		/*地图容器*/
+		#cesiumContainer {
+			width: 100%;
+			height: 100%;
+		}
+		/* 显示当前坐标 */
+		.map3D-coordinates{
+			z-index: 888;
+			position: absolute;
+			top: 1px;
+			/*width: 250px;*/
+			height: auto;
+			overflow: hidden;
+			text-align: center;
+			right: 350px;
+			height: 29px;
+			line-height: 29px;
+			/* background: #303336; */
+			/* border: 1px solid #444; */
+		}
+
+		

@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="area1">
+    <LineStyle>
+      <color>FF000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BF000000</color>
+      <fill>0</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="point1">
+    <IconStyle><Icon><href>http://localhost:8090/cesiumProject/img/blu-blank.png</href></Icon></IconStyle>
+	<LabelStyle>					<!--更改label颜色-->
+      <color>ffffff00</color>
+    </LabelStyle>
+  </Style>
+  <Folder>
+    <name><![CDATA[区、县]]></name>
+    <Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1051人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1051人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1.9平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">761亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">汉、苗、布依族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">412.万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">有丰富地下水资源</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[木乃村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7433700000,26.3397600000,1250</coordinates>
+      </Point>
+	  <ExtendedData><Data name="Role"><value>Optical Tracking Station</value></Data><Data name="Status"><value>Active</value></Data><Data name="Country"><value>United Kingdom</value></Data></ExtendedData>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3010人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3010人 Jobs</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">22.67平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">下司镇</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1858.9亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">汉、苗</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">65.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">重晶石资源</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[新华村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7157800000,26.3356000000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">563人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">563人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2.5平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">穿洞街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">259.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">汉、苗</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">158.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[上羊昌村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.6836700000,26.3607500000,1550</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">714人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">692人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">22人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2.66平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">坪上乡</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">291.06亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">汉、苗</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">114.83万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">夜郎湖景区</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[陇箐村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.6868500000,26.3848700000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3745人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3740人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">5人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2.9平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">鸡场坡镇</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1760.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">汉，布依，彝族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">481.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[骂若村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.6742300000,26.3976100000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">8200人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">8200人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">0.8平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">三合街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">回、瑶、彝族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[小河村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7373100000,26.4049100000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2224人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2224人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">龙宫镇</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">973.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉、布依、白族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[陇嘎村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7475800000,26.3616500000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">774人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">774人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">0.8平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">350.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉、布依族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">273.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[对门寨村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7229800000,26.3886500000,1400</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1102人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1050人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">52人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">0.65平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">700.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉、布依族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1000.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[三岔村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.7302800000, 26.36891600000,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1320人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1320人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1.0平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">花江镇</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">320.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">100.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[和平村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.720465,26.403249,1540</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1515人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1468人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">47人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">5.25平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">坪上乡</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">806.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">295.57万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">喀斯特地貌与石漠化</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[双喜村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.696470,26.397184,1400</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1238人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1238人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.9平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">穿洞街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">389.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">仡佬、彝、苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">200.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[骂渡村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.681011,26.377336,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1238人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1238人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.9平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">穿洞街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">389.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">200.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[马渡下寨]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.691132,26.371872,1400</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1870人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1821人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">49人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.56平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1122.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">布依、苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">127.53万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">夜郎湖</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[长田村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.702155,26.364043,1500</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1870人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1821人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">49人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.56平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1122.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">布依、苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">127.53万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">夜郎湖</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[栋青寨]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.694539,26.357185,1480</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1346人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1346人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.2平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">穿洞街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">259.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">彝、苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">310.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[大树村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.672939,26.354102,1300</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1368人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">1368人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">3.7平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">穿洞街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">483.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">262.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">/</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[磨雄村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.676484,26.345986,1500</coordinates>
+      </Point>
+    </Placemark>
+	<Placemark>
+      <description><![CDATA[<table id="customers" style="width:100%;border-collapse:collapse;">
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">人口总数</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">农业人口</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">非农业人口</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2582人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">2460人</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">122人</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">行政区面积</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">隶属街道</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">耕地面积</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">0.22平方公里</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">定南街道</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">280.0亩</td>
+			</tr>
+
+			<tr style="color:#ffffff;background-color:#A7C942;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">主要民族成分</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">生产总值</th>
+			<th style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">自然条件</th>
+			</tr>
+
+			<tr style="color:#ffffff;font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;font-size:1.1em;text-align:middle;padding-top:5px;padding-bottom:4px;color:#ffffff;">
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">布依、苗、汉族</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">200.0万元</td>
+			<td style="font-size:1em;border:1px solid #2993a9;padding:3px 7px 2px 7px;">夜郎湖</td>
+			</tr>
+			</table>]]></description>
+      <name><![CDATA[地坝村]]></name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>105.729061,26.356215,1300</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Area Features</name>
+    <description>Area Features</description>
+    <Placemark>
+      <description>Unknown Area Type</description>
+      <styleUrl>#area1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              105.9995800000,26.4490300000,0
+              105.9897600000,26.4481600000,0
+              105.9838100000,26.4448000000,0
+              105.9662700000,26.4603700000,0
+              105.9776700000,26.4642900000,0
+              105.9849900000,26.4726100000,0
+              105.9839600000,26.4965900000,0
+              105.9792900000,26.4940200000,0
+              105.9720200000,26.5032100000,0
+              105.9788500000,26.5188800000,0
+              105.9751900000,26.5290800000,0
+              105.9702800000,26.5313500000,0
+              105.9573100000,26.5293500000,0
+              105.9482400000,26.5208500000,0
+              105.9349600000,26.5173800000,0
+              105.9139300000,26.5286600000,0
+              105.8924600000,26.5115200000,0
+              105.8894500000,26.5055900000,0
+              105.8763800000,26.5033000000,0
+              105.8718700000,26.4950200000,0
+              105.8603400000,26.4907400000,0
+              105.8585700000,26.4829300000,0
+              105.8391000000,26.4773600000,0
+              105.8316200000,26.4803300000,0
+              105.8050100000,26.4785900000,0
+              105.7962500000,26.4842700000,0
+              105.7841300000,26.4778400000,0
+              105.7665400000,26.4570700000,0
+              105.7493800000,26.4585000000,0
+              105.7435200000,26.4678100000,0
+              105.7367600000,26.4683400000,0
+              105.7324900000,26.4628600000,0
+              105.7072200000,26.4558200000,0
+              105.6993100000,26.4388300000,0
+              105.6880600000,26.4417000000,0
+              105.6832000000,26.4479400000,0
+              105.6597400000,26.4360700000,0
+              105.6390100000,26.4326200000,0
+              105.6245800000,26.4228600000,0
+              105.6066700000,26.4147300000,0
+              105.6048800000,26.4092200000,0
+              105.5961900000,26.4027300000,0
+              105.5919800000,26.3884600000,0
+              105.5721400000,26.3741100000,0
+              105.5520200000,26.3702400000,0
+              105.5486300000,26.3635500000,0
+              105.5266300000,26.3604600000,0
+              105.5266500000,26.3557200000,0
+              105.5148200000,26.3527900000,0
+              105.5046600000,26.3437000000,0
+              105.5019000000,26.3367900000,0
+              105.5051100000,26.3319600000,0
+              105.4926800000,26.3183200000,0
+              105.4968200000,26.3168000000,0
+              105.4971600000,26.3121600000,0
+              105.5027300000,26.3128500000,0
+              105.5023900000,26.3102300000,0
+              105.4959500000,26.3010600000,0
+              105.4784700000,26.2908000000,0
+              105.4840100000,26.2841500000,0
+              105.4774200000,26.2689700000,0
+              105.4844300000,26.2623200000,0
+              105.5009200000,26.2553700000,0
+              105.5041100000,26.2412000000,0
+              105.5128200000,26.2356200000,0
+              105.5154000000,26.2299400000,0
+              105.5228800000,26.2316700000,0
+              105.5313500000,26.2424100000,0
+              105.5399500000,26.2387800000,0
+              105.5386300000,26.2273400000,0
+              105.5491900000,26.2278400000,0
+              105.5526200000,26.2329700000,0
+              105.5631000000,26.2370200000,0
+              105.5751500000,26.2304800000,0
+              105.5911900000,26.2324900000,0
+              105.5999500000,26.2374700000,0
+              105.6007300000,26.2271300000,0
+              105.6097300000,26.2179400000,0
+              105.6402000000,26.2129800000,0
+              105.6718100000,26.2131500000,0
+              105.6870300000,26.2064800000,0
+              105.6955000000,26.1959900000,0
+              105.7035500000,26.1951900000,0
+              105.7119600000,26.1873400000,0
+              105.7238200000,26.1948100000,0
+              105.7288400000,26.1765900000,0
+              105.7441400000,26.1716400000,0
+              105.7470300000,26.1635800000,0
+              105.7445900000,26.1606600000,0
+              105.7529800000,26.1562000000,0
+              105.7701000000,26.1783700000,0
+              105.7897800000,26.1794200000,0
+              105.7931100000,26.1898900000,0
+              105.8066900000,26.2063500000,0
+              105.8102400000,26.2011300000,0
+              105.8168200000,26.2058200000,0
+              105.8149200000,26.2101800000,0
+              105.8282100000,26.2189600000,0
+              105.8221600000,26.2317800000,0
+              105.8160800000,26.2322200000,0
+              105.8164800000,26.2346900000,0
+              105.8251100000,26.2390900000,0
+              105.8448700000,26.2367800000,0
+              105.8455500000,26.2472000000,0
+              105.8497200000,26.2507300000,0
+              105.8446800000,26.2502700000,0
+              105.8523900000,26.2728900000,0
+              105.8496800000,26.2779600000,0
+              105.8656900000,26.2805100000,0
+              105.8696900000,26.2865700000,0
+              105.8701600000,26.2930300000,0
+              105.8618300000,26.2988500000,0
+              105.8643700000,26.3114700000,0
+              105.8832300000,26.3060900000,0
+              105.8869800000,26.3122000000,0
+              105.8846900000,26.3280600000,0
+              105.8771800000,26.3277800000,0
+              105.8787100000,26.3314900000,0
+              105.8680700000,26.3334600000,0
+              105.8712600000,26.3406600000,0
+              105.9150500000,26.3588800000,0
+              105.9147500000,26.3645900000,0
+              105.9220300000,26.3673500000,0
+              105.9226100000,26.3738800000,0
+              105.9278600000,26.3696500000,0
+              105.9401600000,26.3725400000,0
+              105.9410300000,26.3897800000,0
+              105.9454600000,26.3948700000,0
+              105.9746400000,26.4051500000,0
+              105.9701300000,26.4122400000,0
+              105.9790100000,26.4170700000,0
+              105.9886600000,26.4346900000,0
+              105.9919400000,26.4338800000,0
+              105.9892500000,26.4430800000,0
+              106.0001500000,26.4468000000,0
+              105.9995800000,26.4490300000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

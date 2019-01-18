@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>travel.kml</name>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://localhost:8090/cesiumProject/img/red-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://localhost:8090/cesiumProject/img/redlank.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LabelStyle>					<!--更改label颜色-->
+		  <color>ffff2300</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://localhost:8090/cesiumProject/img/red-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://localhost:8090/cesiumProject/img/red-blank.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LabelStyle>					<!--更改label颜色-->
+		  <color>ff008fff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>我的地点</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>夜郎湖</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>夜郎湖</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>四夜郎湖位于安顺以北35公里普定县境内。景区由夜郎湖、火焰山原始植物保护区、国家重点文物保护单位穿洞古人类遗址、莲花古洞等景点构成。中心景区夜郎湖，湖区全长42公里，蓄水4.2亿立方米，山映碧水，水抱群山，构成上百个半岛、岛屿和湖湾。两岸高山对峙，形成高原“三峡”。</td>
+</tr>
+<tr><td colspan="2" style="text-align: right;"> <button id="tb-btn1" class="tb-btn1" onlick="abc()">更多</button></td></tr>
+</table><img style="max-width:500px;" src="../img/travel/yelanghu1.jpg"><img style="max-width:500px;" src="../img/travel/yelanghu2.jpg"><script>function abc(){
+		alert('avs');
+	}</script>]]></description>
+			<LookAt>
+				<longitude>105.7198187344996</longitude>
+				<latitude>26.37309077531411</latitude>
+				<altitude>1600</altitude>
+				<heading>-0.9623934430023249</heading>
+				<tilt>30.05142178560138</tilt>
+				<range>11686.71498006095</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7238819573921,26.38152512601619,1300</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>桃花岛</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>桃花岛</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>普定县夜郎湖坡上看到，石漠化严重的梭筛片区，经过多年的石漠化治理，生态环境良好，粉红色的桃花盛开在石头山上，满山遍野，美不胜收。</td>
+</tr>
+</table><img style="max-width:500px;" src="../img/travel/taohua1.jpeg"><img style="max-width:500px;" src="../img/travel/taohua2.jpeg"><img style="max-width:500px;" src="../img/travel/taohua3.jpeg">
+]]></description>
+			<LookAt>
+				<longitude>105.7228318092692</longitude>
+				<latitude>26.3693606623766</latitude>
+				<altitude>1600</altitude>
+				<heading>-0.9614625714412278</heading>
+				<tilt>31.45943490018733</tilt>
+				<range>2680.40862078076</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.722517606113,26.36976811915665,1300</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>歪头山</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>歪头山</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>四周环山，属缓丘宽谷区，东南至西北地势平坦，东北至西南属低山丘陵区，冬冷夏热，四季分明，水利条件较好，地下水含量丰富。</td>
+</tr>
+</table><img style="max-width:500px;" src="../img/travel/歪头山1.jpg">]]></description>
+			<LookAt>
+				<longitude>105.6981170365598</longitude>
+				<latitude>26.37318936183406</latitude>
+				<altitude>1600</altitude>
+				<heading>-0.9723405846480262</heading>
+				<tilt>31.76175721921807</tilt>
+				<range>4713.349427739362</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7008299587312,26.37269875608343,1550</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>渡口</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>渡口</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>不仅提供两岸交通运输功能，甚至包括钓鱼、划船等娱乐项目。</td>
+</tr>
+</table>]]></description>
+			<LookAt>
+				<longitude>105.6864363412063</longitude>
+				<latitude>26.38054368204129</latitude>
+				<altitude>1600</altitude>
+				<heading>24.95508702870574</heading>
+				<tilt>30.46467322487725</tilt>
+				<range>1062.955187219213</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.6886092182557,26.38055120513366,1300</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>老鹰岩</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>老鹰岩</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>在大峡谷的北岸向南望去,前面是一道片状的山岩,有一个地方中间低洼下去,形成了鹰背，当地人亲切地称呼为老鹰岩</td>
+</tr>
+</table>]]></description>
+			<LookAt>
+				<longitude>105.7419733654173</longitude>
+				<latitude>26.39680986733616</latitude>
+				<altitude>1600</altitude>
+				<heading>28.42086229388368</heading>
+				<tilt>22.37254165919667</tilt>
+				<range>1547.430881612617</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7456711690625,26.39422260767652,1350</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>罗家湾</name>
+			<description><![CDATA[<table border="1">
+<tr>
+  <td>景点名称：</td>
+  <td>罗家湾</td>
+</tr>   
+<tr>
+  <td>简介：</td>
+  <td>悠闲垂钓农家生活。</td>
+</tr>
+</table>
+<img style="max-width:500px;" src="../img/travel/luojiawan.jpg">]]></description>
+			<LookAt>
+				<longitude>105.7030296888125</longitude>
+				<latitude>26.34581950316615</latitude>
+				<altitude>1600</altitude>
+				<heading>10.20088721175016</heading>
+				<tilt>19.74202139680916</tilt>
+				<range>656.232300543973</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>105.7039123218261,26.34572745330459,1300</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
