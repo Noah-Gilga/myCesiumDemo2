@@ -3,19 +3,7 @@
 <br><br>
 # ABOUT
 借助开源3维框架Cesium，利用项目中获得的贵州安顺数据影像生成DEM和DOM，用js语言编写图层加载与切换功能。参考Cesium官网中的API，利用地形文件的渲染机智简单还原地形的淹没模拟等功能。
-## DATA
-### 地形渲染影像
-链接：https://pan.baidu.com/s/1VnEbDp0-GyM2NTFovdhgkA 
-提取码：lg92 
-### 正射影像
-链接：https://pan.baidu.com/s/1AdepAxG23JtKNGsqcfvljg 
-提取码：n9mw 
-### 地形数据
-链接：https://pan.baidu.com/s/1baCGHjqaJjVxdOiuRAcxKQ 
-提取码：jua9 
-### 点云数据
-链接：https://pan.baidu.com/s/1SgFM-R5TPmTsQyODGMnKQg 
-提取码：vkhd 
+
 # FUNCTION
 ## 1 加载与切换影像图层
 ### 加载按高程渲染的影像以及poi图层
